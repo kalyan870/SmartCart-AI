@@ -1,29 +1,23 @@
-SmartCart AI is an advanced e-commerce web application designed to deliver a modern and intelligent online shopping experience. The platform integrates smart product discovery, responsive design, and seamless checkout functionality.
+# SmartCart AI — Intelligent Shopping Concept
 
-Key Features
+<p align="center"><strong>An e-commerce project concept focused on product discovery, comparison, and a responsive shopping flow.</strong></p>
 
-AI-powered product recommendations
+## Intended experience
 
-Modern responsive UI with clean design
+The project description proposes smart product search and checkout. A useful implementation should make product details, prices, availability, and checkout state clear, and should explain what personalization uses.
 
-Advanced product search and filtering
+## Conceptual workflow
 
-Secure checkout workflow
+```mermaid
+flowchart LR
+  C[Catalog — planned] --> S[Product discovery — planned]
+  U[Shopper preferences] --> S
+  S --> P[Product details and cart — planned]
+  P --> O[Checkout — planned]
+```
 
-Interactive product preview and details
+This is a conceptual product flow. The repository currently contains the project description and license, but no application source, install steps, or runnable demo.
 
-Optimized performance for fast browsing
+## Before presenting it as runnable
 
-Tech Stack
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Modern UI components
-
-Purpose
-
-This project demonstrates how modern web technologies can be used to build a scalable and intelligent e-commerce platform with a focus on usability, performance, and user experience.
+Add the client/server implementation, test purchase and error flows, and document payment-provider and customer-data handling. Do not imply that checkout is active until it has been implemented and verified.
