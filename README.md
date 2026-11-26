@@ -1,6 +1,7 @@
 # SmartCart AI — Intelligent Shopping Concept
 
 <p align="center"><strong>An e-commerce project concept focused on product discovery, comparison, and a responsive shopping flow.</strong></p>
+**Live link:** [https://advanced-e-commerce-rnwv.bolt.host](https://advanced-e-commerce-rnwv.bolt.host)
 
 ## Intended experience
 
@@ -21,3 +22,10 @@ This is a conceptual product flow. The repository currently contains the project
 ## Before presenting it as runnable
 
 Add the client/server implementation, test purchase and error flows, and document payment-provider and customer-data handling. Do not imply that checkout is active until it has been implemented and verified.
+
+## Architecture
+
+
+![SmartCart-AI architecture map](docs/images/smartcart-ai-architecture.png)
+
+[Architecture notes](docs/architecture.md) · [Editable SVG](docs/images/smartcart-ai-architecture.svg)
